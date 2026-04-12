@@ -30,17 +30,24 @@ A Node.js authentication backend implementing **JWT-based authentication**, **se
 ## 📁 Project Structure
 
 ```bash
-src/
+Secure-auth-backend/
 │
-├── config/        # Environment & DB configuration
-├── controllers/   # Auth logic (register, login, etc.)
-├── models/        # Mongoose schemas
-├── routes/        # API routes
-├── services/      # Email service
-├── utils/         # OTP & helper functions
+├── node_modules/
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── app.js
 │
-├── app.js         # Express app setup
-└── server.js      # Entry point
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── server.js
 ```
 
 ---
